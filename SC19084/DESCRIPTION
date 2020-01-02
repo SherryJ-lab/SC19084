@@ -1,0 +1,17 @@
+Package: SC19084
+Type: Package
+Title: A own package for the high dimensional threshold regression.
+Version: 1.0
+Date: 2019-12-23
+Author: Sherry J
+Maintainer: Sherry J <xyz19z@mail.ustc.edu.cn>
+Description: Two R function are included in this package for the high dimensional threshold regression. The ol1 function was built to estimate coefficient vector beta for L1 penalty and the uhard function was constructed to implement the high dimensional threshold regression. 
+License: GPL (>= 2)
+Imports: Rcpp (>= 1.0.2), microbenchmark, knitr, rmarkdown, boot, bootstrap, DAAG, Ball, GeneralizedHyperbolic,parallel
+LinkingTo: Rcpp
+RoxygenNote: 7.0.2
+Suggests: knitr, rmarkdown
+VignetteBuilder: knitr
+URL: http://github.com/SherryJ-lab/SC19084
+BugReports: http://github.com/SherryJ-lab/SC19084/issues
+Encoding: UTF-8
